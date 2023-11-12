@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('/static/img.png');
+  background-size: cover;
+  background-position: center;
+  margin: 300px;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  text-align: center;
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+p {
+  font-size: 18px;
+  text-align: center;
+  color: #333;
+  margin: 20px 0;
+}
