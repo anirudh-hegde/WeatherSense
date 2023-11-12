@@ -28,4 +28,6 @@ def weather():
 
     return render_template('weather.html', result=result)
 
-app.run(debug=True)
+
+if __name__ == "__main__":
+    app.run(debug=True)
